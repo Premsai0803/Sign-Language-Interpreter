@@ -1,4 +1,5 @@
-📜 Project Description
+### 📜 Project Description
+
 Sign Language Recognition is an AI-powered application aimed at bridging the communication gap for individuals who use sign language. By leveraging deep learning and computer vision, this system captures real-time hand gestures through a webcam, processes them using Mediapipe, and classifies them with a machine learning model built using Scikit-learn. The application is designed to identify a range of commonly used sign language gestures and translate them into readable text, enabling seamless interaction between users.
 
 The project consists of a complete pipeline from data collection to model training and real-time inference. The collect_imgs.py script enables users to capture and label training data, while create_dataset.py extracts hand landmark features for model training. The classifier, trained using RandomForest, achieves high accuracy and is deployed using Flask for an interactive web-based experience.
